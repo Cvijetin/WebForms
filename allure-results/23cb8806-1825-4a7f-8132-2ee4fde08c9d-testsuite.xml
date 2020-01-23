@@ -1,0 +1,31 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1579774219423' stop='1579774221151'>
+    <name>57web forms testing</name>
+    <title>57web forms testing</title>
+    <test-cases>
+        <test-case start='1579774219424' status='broken' stop='1579774221143'>
+            <name>Forms</name>
+            <title>Forms</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>no such window: target window already closed
+                from unknown error: web view not found
+                  (Session info: chrome=79.0.3945.130)</message>
+                <stack-trace>no such window: target window already closed
+                from unknown error: web view not found
+                  (Session info: chrome=79.0.3945.130)
+                    at global.$ (/Users/FIVE/webdriver-workshop copy/node_modules/@wdio/runner/build/index.js:189:36)
+                    at Context.&lt;anonymous> (/Users/FIVE/webdriver-workshop copy/test/specs/web.js:6:5)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
